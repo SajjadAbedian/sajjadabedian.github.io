@@ -4,19 +4,19 @@
 		<title>Big Data Prognosis | Informatics in a Learning Health System</title>
 		<generator>(c) Chulapa Jekyll Theme RSS generator</generator>
 		<link>http://localhost:4000/</link>
-		<description>TO BE MOMDIFIED Description</description>
+		<description>Transforming Healthcare with Data: Exploring the Future of Informatics and Data Science in Medicine.</description>
 		<language>en-US</language>
 		<copyright>(c) 2023, Sajjad Abedian</copyright>	
-		<pubDate>Sat, 17 Jun 2023 19:22:29 -0400</pubDate>
-		<lastBuildDate>Sat, 17 Jun 2023 19:22:29 -0400</lastBuildDate>
+		<pubDate>Sun, 25 Jun 2023 22:07:26 -0400</pubDate>
+		<lastBuildDate>Sun, 25 Jun 2023 22:07:26 -0400</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="http://localhost:4000/rss.xml" rel="self" type="application/rss+xml" />
 		<image>
 			<title>Big Data Prognosis | Informatics in a Learning Health System</title>
-			<url>https://github.com/SajjadAbedian.png</url>
+			<url>http://localhost:4000/assets/img/avatar.jpeg</url>
 			<link>http://localhost:4000/</link>
-			<description>TO BE MOMDIFIED Description</description>
+			<description>Transforming Healthcare with Data: Exploring the Future of Informatics and Data Science in Medicine.</description>
 		</image><item>
 			<title>Current skin</title>
 			<description>
@@ -1582,7 +1582,9 @@ to understand <code class="language-plaintext highlighter-rouge">.blockquote-foo
 			</description>
 			<link>http://localhost:4000/20150226_flake-it-till-you-make-it/</link>
 			<category>posts</category>
-		    <category>manuscript</category><category>random</category><guid isPermaLink="true">http://localhost:4000/20150226_flake-it-till-you-make-it/</guid>
+		    <category>manuscript</category><category>random</category><media:title type="html"><![CDATA[Flake it till you make it ]]></media:title>
+      <media:content url="http://localhost:4000/assets/img/avatar.jpeg" medium="image"/>
+      <media:thumbnail url="http://localhost:4000/assets/img/avatar.jpeg" /><guid isPermaLink="true">http://localhost:4000/20150226_flake-it-till-you-make-it/</guid>
       <pubDate>Thu, 26 Feb 2015 00:00:00 -0500</pubDate>
 		</item><item>
 			<title>Test markdown</title>
@@ -1655,7 +1657,9 @@ foo(3)
 			</description>
 			<link>http://localhost:4000/20150220_test-markdown/</link>
 			<category>posts</category>
-		    <category>exciting-stuff</category><category>markdown</category><guid isPermaLink="true">http://localhost:4000/20150220_test-markdown/</guid>
+		    <category>exciting-stuff</category><category>markdown</category><media:title type="html"><![CDATA[Test markdown ]]></media:title>
+      <media:content url="http://localhost:4000/assets/img/avatar.jpeg" medium="image"/>
+      <media:thumbnail url="http://localhost:4000/assets/img/avatar.jpeg" /><guid isPermaLink="true">http://localhost:4000/20150220_test-markdown/</guid>
       <pubDate>Fri, 20 Feb 2015 00:00:00 -0500</pubDate>
 		</item><item>
 			<title>To be</title>
@@ -1704,7 +1708,9 @@ Be all my sins remembered.</p>
 			</description>
 			<link>http://localhost:4000/20150213_hamlet-monologue/</link>
 			<category>posts</category>
-		    <category>manuscript</category><category>wikipedia</category><guid isPermaLink="true">http://localhost:4000/20150213_hamlet-monologue/</guid>
+		    <category>manuscript</category><category>wikipedia</category><media:title type="html"><![CDATA[To be ]]></media:title>
+      <media:content url="http://localhost:4000/assets/img/avatar.jpeg" medium="image"/>
+      <media:thumbnail url="http://localhost:4000/assets/img/avatar.jpeg" /><guid isPermaLink="true">http://localhost:4000/20150213_hamlet-monologue/</guid>
       <pubDate>Fri, 13 Feb 2015 00:00:00 -0500</pubDate>
 		</item><item>
 			<title>Dear diary</title>
@@ -1718,7 +1724,9 @@ Be all my sins remembered.</p>
 			</description>
 			<link>http://localhost:4000/20150127_dear-diary/</link>
 			<category>posts</category>
-		    <category>diary</category><category>manuscript</category><category>random</category><category>school</category><guid isPermaLink="true">http://localhost:4000/20150127_dear-diary/</guid>
+		    <category>diary</category><category>manuscript</category><category>random</category><category>school</category><media:title type="html"><![CDATA[Dear diary ]]></media:title>
+      <media:content url="http://localhost:4000/assets/img/avatar.jpeg" medium="image"/>
+      <media:thumbnail url="http://localhost:4000/assets/img/avatar.jpeg" /><guid isPermaLink="true">http://localhost:4000/20150127_dear-diary/</guid>
       <pubDate>Tue, 27 Jan 2015 00:00:00 -0500</pubDate>
 		</item><item>
 			<title>Soccer</title>
@@ -1737,7 +1745,9 @@ Be all my sins remembered.</p>
 			</description>
 			<link>http://localhost:4000/20150119_soccer/</link>
 			<category>posts</category>
-		    <category>exciting-stuff</category><category>random</category><category>wikipedia</category><guid isPermaLink="true">http://localhost:4000/20150119_soccer/</guid>
+		    <category>exciting-stuff</category><category>random</category><category>wikipedia</category><media:title type="html"><![CDATA[Soccer ]]></media:title>
+      <media:content url="http://localhost:4000/assets/img/avatar.jpeg" medium="image"/>
+      <media:thumbnail url="http://localhost:4000/assets/img/avatar.jpeg" /><guid isPermaLink="true">http://localhost:4000/20150119_soccer/</guid>
       <pubDate>Mon, 19 Jan 2015 00:00:00 -0500</pubDate>
 		</item><item>
 			<title>Pirates arrrr</title>
@@ -1751,7 +1761,9 @@ Be all my sins remembered.</p>
 			</description>
 			<link>http://localhost:4000/20150115_pirates/</link>
 			<category>posts</category>
-		    <category>pirates</category><category>random</category><category>wikipedia</category><guid isPermaLink="true">http://localhost:4000/20150115_pirates/</guid>
+		    <category>pirates</category><category>random</category><category>wikipedia</category><media:title type="html"><![CDATA[Pirates arrrr ]]></media:title>
+      <media:content url="http://localhost:4000/assets/img/avatar.jpeg" medium="image"/>
+      <media:thumbnail url="http://localhost:4000/assets/img/avatar.jpeg" /><guid isPermaLink="true">http://localhost:4000/20150115_pirates/</guid>
       <pubDate>Thu, 15 Jan 2015 00:00:00 -0500</pubDate>
 		</item><item>
 			<title>First post!</title>
@@ -1765,7 +1777,9 @@ Be all my sins remembered.</p>
 			</description>
 			<link>http://localhost:4000/20150104_first-post/</link>
 			<category>posts</category>
-		    <category>exciting-stuff</category><category>random</category><guid isPermaLink="true">http://localhost:4000/20150104_first-post/</guid>
+		    <category>exciting-stuff</category><category>random</category><media:title type="html"><![CDATA[First post! ]]></media:title>
+      <media:content url="http://localhost:4000/assets/img/avatar.jpeg" medium="image"/>
+      <media:thumbnail url="http://localhost:4000/assets/img/avatar.jpeg" /><guid isPermaLink="true">http://localhost:4000/20150104_first-post/</guid>
       <pubDate>Sun, 04 Jan 2015 00:00:00 -0500</pubDate>
 		</item></channel>
 </rss>

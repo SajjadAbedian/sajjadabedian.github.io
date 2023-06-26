@@ -5,7 +5,7 @@
     <!--  MIT License-->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2023-06-17 19:22:29 -0400 -->
+    <!-- Page build 2023-06-25 22:07:26 -0400 -->
     <!--Google Structured Data-->
     <script type="application/ld+json">
         {
@@ -16,12 +16,20 @@
         "@id": "http://localhost:4000/cheatsheets"
       },
       "headline": "Cheatsheets",
-      "image": "https://github.com/SajjadAbedian.png",
-      "datePublished": "2023-06-17T19:22:29-04:00",
-      "dateModified": "2023-06-17T19:22:29-04:00",
+      "image": "http://localhost:4000/assets/img/avatar.jpeg",
+      "datePublished": "2023-06-25T22:07:26-04:00",
+      "dateModified": "2023-06-25T22:07:26-04:00",
       "author": {
         "@type": "Person",
         "name": "Sajjad Abedian"
+        , "url": "https://medium.com/@saa3011"
+        ,  "sameAs" : [
+             "https://linkedin.com/sajjadabedian"
+            ,
+             "https://github.com/SajjadAbedian"
+            ,
+             "https://twitter.com/SajjadAbedian1"
+            ]
       },
        "publisher": {
         "@type": "Organization",
@@ -29,7 +37,7 @@
         "url": "http://localhost:4000/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://github.com/SajjadAbedian.png"
+          "url": "http://localhost:4000/assets/img/avatar.jpeg"
         }
       }
     }
@@ -62,6 +70,7 @@
 {
   "@context" : "https://schema.org",
   "@type" : "Person",
+  "image": "http://localhost:4000/assets/img/avatar.jpeg",
   "homeLocation": {
     "@type": "Place",
     "name": "New York, USA"
@@ -69,6 +78,12 @@
   "description": "Publisher",
   "name" : "Sajjad Abedian",
   "url" : "http://localhost:4000/"
+  ,  "sameAs" : [
+  "https://medium.com/@saa3011",
+  "https://linkedin.com/sajjadabedian",
+  "https://github.com/SajjadAbedian",
+  "https://twitter.com/SajjadAbedian1"
+  ]
 }
 </script>
    <title>Cheatsheets | Big Data Prognosis</title>
@@ -82,10 +97,8 @@
    <meta name="author" content="Sajjad Abedian" >
    <meta name="copyright" content="Sajjad Abedian" >
    <meta name="description" content="If it is first time using markdown and jekyll, you may find this pages useful.">
-   <meta name="thumbnail" content="https://github.com/SajjadAbedian.png" >
+   <meta name="thumbnail" content="http://localhost:4000/assets/img/avatar.jpeg" >
    <meta name="robots" content="index, follow"><meta name="keywords" content="">
-    <!-- Chrome, Firefox OS and Opera -->
-  <meta name="theme-color" content="lightskyblue">
     <!-- OpenGraph -->
    <meta property="og:title" content="Cheatsheets | Big Data Prognosis" >
    <meta property="og:site_name" content="Big Data Prognosis | Informatics in a Learning Health System" >
@@ -93,9 +106,12 @@
    <meta property="og:type" content="website" >
    <meta property="og:description" content="If it is first time using markdown and jekyll, you may find this pages useful." >
    <meta property="og:locale" content="en-US" >
-   <meta property="og:image" content="https://github.com/SajjadAbedian.png" >
+   <meta property="og:image" content="http://localhost:4000/assets/img/avatar.jpeg" >
     <!-- Twitter Cards -->
-   <meta name="twitter:card" content="summary_large_image"><!-- start custom head snippets -->
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:site" content="@SajjadAbedian1" >
+   <meta name="twitter:creator" content="@SajjadAbedian1" >
+    <!-- start custom head snippets -->
 <!-- this script is inserted before the css stylesheet -->
 <!-- end custom head snippets -->
 <!-- CSS -->
@@ -113,35 +129,51 @@
   <link id="csshigh" rel="stylesheet" href="http://localhost:4000/assets/css/highlighter.css" >
     <!-- Custom css -->
   <link rel="stylesheet" href="http://localhost:4000/assets/css/custom.css" >
-      <!-- start custom head snippets -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CGX6Q43TCC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-CGX6Q43TCC');
+</script>
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'G-CGX6Q43TCC', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+<!-- start custom head snippets -->
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <!-- end custom head snippets -->
 </head>
 <body class="d-flex flex-column h-entry" id="body">
 	<a class="u-url d-none" href="http://localhost:4000/cheatsheets">Invisible link to canonical for Microformats</a>
-	<nav class="navbar navbar-expand-md sticky-top navbar-chulapa" aria-label="primary-navigation">
-	<div class="container-fluid mx-md-2">
-			<a class="navbar-brand font-weight-bold" href="http://localhost:4000/">Home</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarToggler">
-				<ul class="navbar-nav ml-auto"><li class="nav-item">
-						<a class="nav-link " href="http://localhost:4000/blog/">Blog</a>
-					</li><li class="nav-item">
-						<a class="nav-link  active font-weight-bold" href="http://localhost:4000/cheatsheets">Cheatsheets<span class="sr-only">(current)</span></a>
-					</li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle " href="#" id="Extras" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Extras</a>
-						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="Extras"><a class="dropdown-item " href="http://localhost:4000/tags">Tags</a><a class="dropdown-item " href="http://localhost:4000/categories">Categories</a><a class="dropdown-item " href="http://localhost:4000/archive">Archive</a><a class="dropdown-item " href="http://localhost:4000/current-skin">Current skin</a></div>
-					</li><li class="nav-item">
-						<a class="nav-link " href="https://dieghernan.github.io/chulapa/docs/01-install">Docs</a>
-					</li><li class="nav-item">
-						<a class="nav-link " href="https://github.com/dieghernan/chulapa-101/generate">Use this template</a>
-					</li><li class="nav-item">
-						<a class="nav-link " href="http://localhost:4000/search">
-							<span class="d-md-none p-0 pr-1">Search</span><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span>
-						</a>
-					</li></ul>
-			</div></div>
-</nav>	<header class="text-center header-chulapa"><div class="container-lg mt-2">
+	<div class="navbar-chulapa-fab">
+		<input type="checkbox" class="navbar-chulapa-fab-button d-none" id="navi-toggle">
+		<label for="navi-toggle" class="navbar-toggler p-1 m-0 text-center d-flex">
+			<span class="navbar-toggler-icon m-auto">&nbsp;</span>
+		</label>
+		<div class="navbar-chulapa-fab-background">&nbsp;</div>
+		<nav class="navbar-chulapa-fab-nav" aria-label="primary-navigation">
+			<ul class="navbar-nav text-center text-uppercase font-weight-light mt-0 mb-1 py-1">
+				<li class="nav-item">
+					<a class="nav-link px-3 navbar-brand mx-1 " href="http://localhost:4000/">Home</a>
+				</li><li class="nav-item my-0 py-1">
+					<a class="nav-link px-3 py-1" href="http://localhost:4000/blog/">Blog</a>
+				</li><li class="nav-item my-0 py-1">
+					<a class="nav-link px-3 py-1 active font-weight-bold" href="http://localhost:4000/cheatsheets">Cheatsheets<span class="sr-only">(current)</span></a>
+				</li><li class="nav-item dropdown my-0 py-1"><a class="nav-link dropdown-toggle px-3 py-1 " href="#" id="Extras" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Extras</a>
+					<div class="dropdown-menu dropdown-menu-right text-center rounded-0 pr-4" aria-labelledby="Extras"><a class="dropdown-item nav-link d-block px-3 small " href="http://localhost:4000/tags">Tags </a><a class="dropdown-item nav-link d-block px-3 small " href="http://localhost:4000/categories">Categories </a><a class="dropdown-item nav-link d-block px-3 small " href="http://localhost:4000/archive">Archive </a><a class="dropdown-item nav-link d-block px-3 small " href="http://localhost:4000/current-skin">Current skin </a></div>
+				</li><li class="nav-item my-0 py-1">
+					<a class="nav-link px-3 py-1 " href="http://localhost:4000/search">Search</a>
+				</li></ul>
+		</nav>
+	</div>	<header class="text-center header-chulapa"><div class="container-lg mt-2">
        <div class="row">
            <div class="col-lg-8 offset-lg-2">
            <h1 class="p-name">Cheatsheets</h1>
@@ -183,7 +215,7 @@
 			</article>
 			<div class="border-top-0 card-footer border-primary chulapa-bg-transparent">
 				<p class="small text-right font-italic mb-1">
-<time datetime="2023-06-17T19:22:29-04:00">17/06/2023</time></p><a href="http://localhost:4000/categories#tutorial" class="badge chulapa-pill-bg-secondary mx-1">tutorial</a><a href="http://localhost:4000/tags#starter" class="badge chulapa-pill-bg-primary mx-1">starter</a><a href="http://localhost:4000/tags#syntax" class="badge chulapa-pill-bg-primary mx-1">syntax</a><a href="http://localhost:4000/tags#kramdown" class="badge chulapa-pill-bg-primary mx-1">kramdown</a></div>
+<time datetime="2023-06-25T22:07:26-04:00">25/06/2023</time></p><a href="http://localhost:4000/categories#tutorial" class="badge chulapa-pill-bg-secondary mx-1">tutorial</a><a href="http://localhost:4000/tags#starter" class="badge chulapa-pill-bg-primary mx-1">starter</a><a href="http://localhost:4000/tags#syntax" class="badge chulapa-pill-bg-primary mx-1">syntax</a><a href="http://localhost:4000/tags#kramdown" class="badge chulapa-pill-bg-primary mx-1">kramdown</a></div>
 		</div>
 	</div>
 </div>
@@ -201,7 +233,7 @@
 			</article>
 			<div class="border-top-0 card-footer border-primary chulapa-bg-transparent">
 				<p class="small text-right font-italic mb-1">
-<time datetime="2023-06-17T19:22:29-04:00">17/06/2023</time></p><a href="http://localhost:4000/categories#tutorial" class="badge chulapa-pill-bg-secondary mx-1">tutorial</a><a href="http://localhost:4000/tags#starter" class="badge chulapa-pill-bg-primary mx-1">starter</a><a href="http://localhost:4000/tags#syntax" class="badge chulapa-pill-bg-primary mx-1">syntax</a><a href="http://localhost:4000/tags#markdown" class="badge chulapa-pill-bg-primary mx-1">markdown</a></div>
+<time datetime="2023-06-25T22:07:26-04:00">25/06/2023</time></p><a href="http://localhost:4000/categories#tutorial" class="badge chulapa-pill-bg-secondary mx-1">tutorial</a><a href="http://localhost:4000/tags#starter" class="badge chulapa-pill-bg-primary mx-1">starter</a><a href="http://localhost:4000/tags#syntax" class="badge chulapa-pill-bg-primary mx-1">syntax</a><a href="http://localhost:4000/tags#markdown" class="badge chulapa-pill-bg-primary mx-1">markdown</a></div>
 		</div>
 	</div>
 </div>
@@ -212,17 +244,33 @@
  <footer class="footer-chulapa text-center mt-0 pt-3">
    <div class="container">
      <div class="row">
-       <div class="col-xl-10 offset-xl-1"><div role="navigation" class="d-flex flex-wrap justify-content-center"><a href="https://github.com/dieghernan/chulapa-101" title="footerRepo on Github" class="chulapa-footer-sociallink lead"><span class="fa-stack fa-lg" aria-hidden="true">
+       <div class="col-xl-10 offset-xl-1"><div role="navigation" class="d-flex flex-wrap justify-content-center"><a href="https://medium.com/@saa3011" title="footerMedium" class="chulapa-footer-sociallink lead"><span class="fa-stack fa-lg" aria-hidden="true">
                 <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-              </span><span class="sr-only">Repo on Github</span>
+                <i class="fa-brands fa-medium fa-stack-1x fa-inverse"></i>
+              </span><span class="sr-only">Medium</span>
+            </a><a href="https://linkedin.com/sajjadabedian" title="footerLinkedin" class="chulapa-footer-sociallink lead"><span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa-brands fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span><span class="sr-only">Linkedin</span>
+            </a><a href="https://github.com/SajjadAbedian" title="footerGithub" class="chulapa-footer-sociallink lead"><span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa-brands fa-github fa-stack-1x fa-inverse"></i>
+              </span><span class="sr-only">Github</span>
+            </a><a href="https://twitter.com/SajjadAbedian1" title="footerTwitter" class="chulapa-footer-sociallink lead"><span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa-brands fa-twitter fa-stack-1x fa-inverse"></i>
+              </span><span class="sr-only">Twitter</span>
+            </a><a href="mailto:sajjad.abedian@gmail.com?subject=Big%20Data%20Prognosis%20web%20contact" title="footerEmail" class="chulapa-footer-sociallink lead"><span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa-solid fa-envelope fa-stack-1x fa-inverse"></i>
+              </span><span class="sr-only">Email</span>
             </a><a href="http://localhost:4000/atom.xml" title="footerRSS" class="chulapa-footer-sociallink lead"><span class="fa-stack fa-lg" aria-hidden="true">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
               </span><span class="sr-only">RSS</span>
             </a></div><p class="mt-2 mb-3">&copy; 2023 Sajjad Abedian</p>
           <!-- Do not remove this in order to give  attributions -->
-         <p class="chulapa-footer-brand">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a><br><b>Sunset</b> skin by <a href="https://themesguide.github.io/top-hat/dist/">Tophat</a></p>
+         <p class="chulapa-footer-brand">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a><br><b>Twitter</b> skin by <a href="https://github.com/dieghernan">dieghernan</a></p>
           <!-- End  attributions -->
        </div>
      </div>
